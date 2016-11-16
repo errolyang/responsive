@@ -1,0 +1,70 @@
+header{ width: 1200px; margin: 0 auto; height: 80px; overflow: hidden;}
+header .logo{ line-height: 80px;}
+header ul{ float: right; margin-right: 10px;}
+header ul li{ float: left; font-size: 16px;  margin: 20px 0 20px 62px;}
+header ul li a{ color: #000; height: 16px; text-align: center; padding: 10px; display: block; border-bottom: 2px solid #fff;}
+header ul .on a{ border-bottom: 2px solid #2478be; color: #2478be;}
+header ul li a:hover{ border-bottom: 2px solid #2478be; color: #2478be;}
+
+.banner{ background: url(../images/banner.png) no-repeat center; background-size: cover; width: 100%; height: 610px; clear: both; }
+
+.con{ width: 1200px; margin: 0 auto; margin-top: 100px;}
+.con h1{ font-weight: normal; font-size: 30px; margin: 0 auto; text-align: center;}
+.con .top{  margin: 0 auto; margin-top: 70px; overflow: hidden;}
+.con dl{ text-align: center; float: left; margin: 0 65px; }
+.con dl dd{ width: 270px;}
+.con dl dd h2{ font-weight: normal; font-size: 20px; margin: 30px 0 20px 0;}
+.con dl dd p{ font-size: 14px;}
+.con .bot{ width: 190px; margin: 0 auto; margin-top: 80px; margin-bottom: 90px; clear: both;}
+.con .bot p{ font-size: 16px; color: #999; text-align: center;}
+
+footer{ width: 100%; height: 126px; background-color: #444444; }
+footer .foot{ width: 1200px; margin: 0 auto; overflow: hidden; overflow: hidden;}
+footer .foot p{ float: left; color: #dcdcdc; line-height: 126px;}
+footer .foot ul{ float: right; line-height: 126px;}
+footer .foot ul li{ float: left;}
+footer .foot ul li a{ color: #dcdcdc;}
+footer .foot ul li a:hover{ color: #000;}
+footer .foot ul li span{ width: 1px; height: 11px; background-color: #dcdcdc; margin: 0 5px; display: inline-block;}
+
+@media screen and (max-width: 1230px) {
+	header{ width: 90%;}
+	header ul li{ margin-left: 30px;}
+	.banner{ height: 520px;}
+	.con{ width: 90%;}
+	.con .top{ width: 880px;}
+	.con dl{ margin-right: 10px; margin-left: 10px;}
+	footer .foot{ width: 90%;}
+}
+@media screen and (max-width: 1000px) {
+	header ul li{ margin-left: 9px;}
+	.banner{ height: 400px;}
+	.con .top{ width: 700px;}
+	.con dl{ margin-right: 15px; margin-left: 15px;}
+	.con dl dd{ width: 200px;}
+}
+@media screen and (max-width: 768px) {
+	header{ height: 76px;}
+	header .logo{ line-height: 76px;}
+	header ul{ width: 315px; margin-right: 0; }
+	header ul li{ width: 84px; margin: 0 10px;}
+	.banner{ height: 380px;}
+	.con .top{ width: 420px;}
+	.con dl{ float: none; overflow: hidden; width: 420px; margin: 0; margin-top: 10px; text-align: left;}
+	.con dl dt{ float: left;}
+	.con dl dd{ float: right;}
+}
+@media screen and (max-width: 517px) {
+	header{ height: 114px;}
+	header .logo{ line-height: 114px;}
+	header ul{ width: 210px;}
+	.banner{ height: 250px;}
+	.con .top{ width: 270px;}
+	.con dl{ width: 270px; text-align: center; margin-top: 20px;}
+	.con dl dt{ float: none;}
+	.con dl dd{ float: none; width: 270px;}
+	.con dl dd h2{ margin: 5px 0;}
+	footer .foot{ padding-top: 40px;}
+	footer .foot p{ float: none; line-height: 24px;}
+	footer .foot ul{ float: none; line-height: 24px;}
+}
